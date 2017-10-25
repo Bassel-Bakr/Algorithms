@@ -5,8 +5,8 @@
 using namespace std;
 
 int main() {
-	string pattern, text;
-	cin >> pattern >> text;
+	string pattern = "aba";
+	string text = "abababalolaba";
 	
 	string s = pattern + "$" + text;
 	
